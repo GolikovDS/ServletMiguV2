@@ -1,0 +1,19 @@
+
+#history_div{
+    position: absolute;
+    bottom: 20px;
+    width: 1100px;
+    height: 500px;
+    overflow: auto;
+    border: 3px solid rgba(70, 70, 70, 0.50);
+    margin-right: 15px;
+}
+
+.message_div{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: snow;
+}
+
+.date_message{
+    color: darkblue;
+}

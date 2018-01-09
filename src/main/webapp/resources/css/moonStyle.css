@@ -1,0 +1,60 @@
+
+
+.mass {
+    position: absolute;
+    top: 320px;
+    left: 700px;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px #3c5a78;
+    color: #3c5a78;
+
+
+}
+
+.press {
+     position: absolute;
+     top: 320px;
+     left: 350px;
+    font-size: 32px;
+     text-shadow: 1px 1px 2px #3c5a78;
+     color: #3c5a78
+ }
+
+.chanel{
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    color: #3c5a78
+}
+
+.setting_value {
+     position: absolute;
+     top: 20px;
+     left: 900px;
+     font-size: 16px;
+     /*text-shadow: 1px 1px 1px #3c5a78;*/
+     color: #3c5a78
+ }
+.time {
+    position: absolute;
+    top: 105px;
+    left: 900px;
+    font-size: 16px;
+    /*text-shadow: 1px 1px 1px #3c5a78;*/
+    color: #3c5a78
+}
+
+.errorMessage{
+    position: absolute;
+    bottom: 5%;
+    left: 10px;
+    font-size: 18px;
+    /*text-shadow: 1px 1px 1px #3c5a78;*/
+    color: #3c5a78;
+    width: 1150px;
+    height: 180px;
+    overflow: scroll;
+    background-color: #f5f5f5;
+    border: 3px solid rgba(0, 0, 0, 0.08);
+}
+

@@ -1,0 +1,256 @@
+
+
+
+.left_admin_panel {
+
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    width: 250px;
+    height: 800px;
+    border: 3px solid rgba(0, 0, 0, 0.08);
+    margin-left: 10px;
+    box-shadow: 0 0 30px rgba(70, 70, 70, 0.50);
+}
+
+
+
+.btn_admin_left_panel {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(3, 3, 3, 0.50);
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.50);
+    width: 225px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    padding-left: 10px;
+}
+
+.btn_admin_left_panel:hover {
+    background-color: rgba(3, 3, 3, 0.25);
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    color: rgba(3, 3, 3, 0.50);
+}
+
+.btn_admin_left_panel:active {
+    background-color: rgba(3, 3, 3, 0.35);
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    color: rgba(3, 3, 3, 0.50);
+
+}
+
+.btn_admin_add {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(3, 3, 3, 0.50);
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.50);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 12px;
+
+}
+
+.btn_admin_add:hover {
+    background-color: rgba(3, 3, 3, 0.25);
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    color: rgba(3, 3, 3, 0.50);
+}
+
+.btn_admin_add:active {
+    background-color: rgba(3, 3, 3, 0.35);
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    color: rgba(3, 3, 3, 0.50);
+}
+
+.input_text_add{
+    background-color: rgba(0, 0, 0, 0.0);
+    color: darkblue;
+    border: 3px solid rgba(3, 3, 3, 0.50);
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.input_text_add_left_panel{
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(3, 3, 3, 0.50);
+    border: 3px solid rgba(3, 3, 3, 0.50);
+
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.center_admin_panel{
+    border: 3px solid rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    width: 1200px;
+    height: 775px;
+    padding-left: 25px;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0 0 30px rgba(70, 70, 70, 0.50);
+    overflow: auto;
+}
+
+.horizontal-click [name="vkl"] { display: none; }
+.horizontal-click > :not(input):not(label) {
+    overflow: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0 .5em;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top-style: none;
+    transition: .5s;
+}
+
+.horizontal-click > label {
+    overflow: hidden;
+    display: block;
+    padding: .5em 1em;
+    background: rgba(70, 70, 70, 0.50);
+    color: rgb(245,245,245);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.horizontal-click > :checked + label + * {
+    overflow: auto;
+    height: 450px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.horizontal-click > :checked + label {
+    background: rgba(70, 70, 70, 0.50);
+    cursor: default;
+}
+
+.panelSelectMigu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    width: 220px;
+    height: 350px;
+    border: 3px solid rgba(70, 70, 70, 0.50);
+    margin-left: 10px;
+    overflow: auto;
+}
+
+.radioMigu{
+   background-color: #ff0000;
+    height: 10px;
+}
+
+@keyframes click-wave {
+    0% {
+        height: 20px;
+        width: 20px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        height: 100px;
+        width: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+        opacity: 0;
+    }
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    z-index: 1000;
+}
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    z-index: 1000;
+}
+.option-input:hover {
+    background: #9faab7;
+}
+.option-input:checked {
+    background: rgba(0, 182, 51, 0.31);
+}
+.option-input:checked::before {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -11px;
+    color:rgba(255, 119, 0, 0.71);
+    content: '✔';
+    display: inline-block;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+}
+/*.option-input:checked::after {*/
+    /*-webkit-animation: click-wave 0.65s;*/
+    /*-moz-animation: click-wave 0.65s;*/
+    /*animation: click-wave 0.65s;*/
+    /*background: rgba(255, 119, 0, 0.71);*/
+    /*content: '';*/
+    /*display: block;*/
+    /*position: relative;*/
+
+    /*z-index: 100;*/
+/*}*/
+.option-input.radio {
+    border-radius: 50%;
+}
+.option-input.radio::after {
+    border-radius: 50%;
+}
+
+.add_user_title{
+    color: darkblue;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
